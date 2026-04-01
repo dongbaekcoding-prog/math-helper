@@ -5,7 +5,7 @@ import random
 # ════════════════════════════════════════════════════════════
 # 🔑 Gemini API 키
 # ════════════════════════════════════════════════════════════
-GEMINI_API_KEY = st.secrests["GEMINI_API_KEY"]  # ← 본인의 Gemini API 키로 교체
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]  # ← 본인의 Gemini API 키로 교체
 
 
 st.set_page_config(page_title="수학 도우미", page_icon="🧮",
